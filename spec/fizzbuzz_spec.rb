@@ -1,5 +1,6 @@
 require './lib/fizzbuzz.rb'
 
+<<<<<<< HEAD
 describe do
   it "should be divisible by 3" do
     expect(is_divisible_by_3(3)).to eq true
@@ -56,5 +57,19 @@ describe do
   it "should return number if number is 0" do
     expect(fizzbuzz(0)).to eq 0
   end
+=======
+describe 'fizzbuzz' do
+    it 'returns "fizz" when passed 3' do
+      expect(fizzbuzz(3)).to eq 'fizz'
+    end
+
+    it 'returns "buzz" when passed 5' do
+      expect(fizzbuzz(5)).to eq 'buzz'
+    end
+
+    it 'returns "fizzbuzz" when passed 15' do
+      expect(fizzbuzz(15)).to eq 'fizzbuzz'
+    end
+>>>>>>> 55ac9a5c8820ba0a06f0181738f5979485417b97
 
 end
