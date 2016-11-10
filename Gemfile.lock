@@ -1,6 +1,10 @@
 GEM
   remote: https://rubygems.org/
   specs:
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> fab74596950e9ae32545dd4b874eca7bc1dc885c
     actioncable (5.0.0.1)
       actionpack (= 5.0.0.1)
       nio4r (~> 1.2)
@@ -99,12 +103,39 @@ GEM
     websocket-driver (0.6.4)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.2)
+<<<<<<< HEAD
+=======
+=======
+    diff-lcs (1.2.5)
+    rspec (3.5.0)
+      rspec-core (~> 3.5.0)
+      rspec-expectations (~> 3.5.0)
+      rspec-mocks (~> 3.5.0)
+    rspec-core (3.5.4)
+      rspec-support (~> 3.5.0)
+    rspec-expectations (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-mocks (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-support (3.5.0)
+>>>>>>> 55ac9a5c8820ba0a06f0181738f5979485417b97
+>>>>>>> fab74596950e9ae32545dd4b874eca7bc1dc885c
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+<<<<<<< HEAD
   rails
+=======
+<<<<<<< HEAD
+  rails
+=======
+  rspec
+>>>>>>> 55ac9a5c8820ba0a06f0181738f5979485417b97
+>>>>>>> fab74596950e9ae32545dd4b874eca7bc1dc885c
 
 BUNDLED WITH
    1.13.6
